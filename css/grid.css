@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.grid-container{
+    background-color: #f0c;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.grid-container div{
+    background-color: teal;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-item:nth-child(1){
+    grid-column: 1 / span 3;
+}
